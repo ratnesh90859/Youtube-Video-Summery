@@ -27,18 +27,11 @@ video_url = st.text_input("Enter YouTube Video URL")
 # Selectbox for choosing the transcript language
 language_choice = st.selectbox("Choose transcript language", ["en", "hi", "es", "fr", "de"])
 
-# Display a warning about potential IP blocks on Streamlit Cloud
-st.warning("⚠️ Note: This app may not work correctly on Streamlit Cloud due to YouTube blocking requests from cloud IPs. If you're facing issues, consider running locally.")
-
 # Proceed if a valid video URL is provided
 if video_url:
     try:
         # Extract video ID from the URL
         video_id = video_url.split("v=")[-1].split("&")[0]
-
-        # Attempt to use proxy if IP block occurs
-        proxies = {"http": "http://51.158.154.173:3128", "https": "http://51.158.154.173:3128"}  # Example proxy
-        YouTubeTranscriptApi.set_proxies(proxies)
 
         # Get the available transcripts for the video
         transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
