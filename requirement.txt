@@ -3,6 +3,7 @@ openai
 langchain
 langchain-community
 faiss-cpu
-youtube_transcript_api
+youtube-transcript-api
 python-dotenv
 tiktoken
+langchain-openai
