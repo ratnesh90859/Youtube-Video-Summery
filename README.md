@@ -4,21 +4,7 @@
 
 VideoGyaan is a Streamlit-powered web application that transforms YouTube videos into digestible learning materials through transcript extraction, AI summarization, and interactive Q&A functionality.
 
----
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technology Stack](#technology-stack)
-- [Contributing](#contributing)
-- [License](#license)
-
----
 
 ## 🎯 Overview
 
