@@ -143,6 +143,6 @@ The application will be available at `http://localhost:8501`
 
 
 
-Made with ❤️ by [Your Name]
+
 
 </div>
